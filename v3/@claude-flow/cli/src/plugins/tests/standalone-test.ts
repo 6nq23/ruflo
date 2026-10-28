@@ -9,8 +9,6 @@
  *   npm run test:plugin-store
  */
 
-import { createRequire } from 'module';
-const require = createRequire(import.meta.url);
 import {
   createPluginDiscoveryService,
   searchPlugins,

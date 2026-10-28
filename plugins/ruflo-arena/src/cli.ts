@@ -2,8 +2,6 @@
 // Human-facing CLI for ruflo-arena. Subcommands mirror the MCP tools (ADR-147).
 //   ruflo-arena demo | arena | tournament | evolve | coevolve
 
-import { createRequire } from 'module';
-const require = createRequire(import.meta.url);
 import { getGame } from './domain/games.js';
 import { classicRoster, findStrategy } from './domain/strategies.js';
 import { runMatch } from './engine/arena.js';

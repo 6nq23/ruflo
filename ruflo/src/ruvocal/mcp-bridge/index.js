@@ -1,5 +1,3 @@
-import { createRequire } from 'module';
-const require = createRequire(import.meta.url);
 import express from "express";
 import { spawn } from "child_process";
 import { randomUUID, timingSafeEqual } from "crypto";

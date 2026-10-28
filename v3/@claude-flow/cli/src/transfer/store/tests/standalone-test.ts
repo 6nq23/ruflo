@@ -9,8 +9,6 @@
  *   npm run test:pattern-store
  */
 
-import { createRequire } from 'module';
-const require = createRequire(import.meta.url);
 import {
   PatternStore,
   createDiscoveryService,

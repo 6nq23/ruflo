@@ -19,8 +19,6 @@
  *   Default: http://localhost:3001
  */
 
-import { createRequire } from 'module';
-const require = createRequire(import.meta.url);
 const BASE = process.argv[2] || "http://localhost:3001";
 
 let passed = 0;

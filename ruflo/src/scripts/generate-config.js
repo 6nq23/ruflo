@@ -12,8 +12,6 @@
  *   - mcp-bridge/cloudbuild.yaml  (with project-specific values)
  */
 
-import { createRequire } from 'module';
-const require = createRequire(import.meta.url);
 import { readFileSync, writeFileSync, existsSync } from "fs";
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";

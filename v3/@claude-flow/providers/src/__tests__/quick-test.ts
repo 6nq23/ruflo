@@ -12,8 +12,6 @@
  *   npx tsx src/__tests__/quick-test.ts
  */
 
-import { createRequire } from 'module';
-const require = createRequire(import.meta.url);
 import { config } from 'dotenv';
 import { resolve, dirname } from 'path';
 import { fileURLToPath } from 'url';

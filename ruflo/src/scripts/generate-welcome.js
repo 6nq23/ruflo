@@ -13,8 +13,6 @@
  * Output: chat-ui/static/chatui/omni-welcome.gif
  */
 
-import { createRequire } from 'module';
-const require = createRequire(import.meta.url);
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from "fs";
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
